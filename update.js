@@ -44,8 +44,4 @@ const readWriteAsyne = () => {
     
 }
 
-
-//readWriteAsyne(); 
-console.log('hi')
-console.log(getFiles('.'))
 readWriteAsyne();
