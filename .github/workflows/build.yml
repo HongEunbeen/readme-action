@@ -24,6 +24,8 @@ jobs:
     - name: Update README
       run: |-
         node update.js
+        cat README.md
+        
     - name: Commit and push if changed
       run: |-
         git diff
